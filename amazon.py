@@ -116,7 +116,7 @@ def load_csv_robust(file_path, modified_time):
 if not CSV_PATH.exists():
     st.error(
         f"CSV file not found: {CSV_PATH}\n\n"
-        "Place amazon.csv in the same folder as amazon.py."
+        "Place Amazon.csv in the same folder as amazon.py."
     )
     st.stop()
 
