@@ -21,7 +21,7 @@ st.set_page_config(
 # FILE PATHS
 # =========================================================
 BASE_DIR = Path(__file__).resolve().parent
-CSV_PATH = BASE_DIR / "amazon.csv"
+CSV_PATH = BASE_DIR / "Amazon.csv"
 LOGO_PATH = BASE_DIR / "logo.jpg"
 
 # =========================================================
